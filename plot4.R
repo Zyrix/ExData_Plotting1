@@ -22,5 +22,8 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty 
 # plot of global reactive power in respect to time
 plot(sub$DateTime, sub$Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power")
 
+# reset graphics canvas to default value
+par(mfrow = c(1, 1))
+
 # save and shut down graphics device
 invisible(dev.off())
