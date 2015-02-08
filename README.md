@@ -1,6 +1,6 @@
 ## Solution
 
-Thank you for evaluating my solution of Course Project 1 of Coursera's Exploratory Data Analysis course!
+Thank you for evaluating my solution to Course Project 1 of Coursera's Exploratory Data Analysis course!
 
 Please note that the reading and cleaning of the data set is done in file <i>read_and_clean.R</i> which is in turn called by each of the plot generating R files.
 
